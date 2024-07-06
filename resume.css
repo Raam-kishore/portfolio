@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.home
+{
+    color: #fff;
+}
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+.mymenu nav a
+{
+    
+  margin:0;
+  padding: 0;
+  color:#f0f0f0;
+  
+
+}
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.nobullets a{
+    color:whitesmoke;
+    text-decoration:none;
+}
+.nobullets  {
+  color:whitesmoke;
+    display:flex;
+    gap:10px;
+    flex-direction:row-reverse;
+    list-style-type:None;
+    margin-bottom:20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom:0;
+}
+.education
+{
+    padding:20px;
+    margin:10px;
+}
+

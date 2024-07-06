@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Roll no:CS21B1043
+Name:T.Raamkishore
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- meta tags with viewport for responsive web design ,so that it will compatible across all devices-->
+    <link rel="stylesheet" href="main.css">
+    <title>Raamkishore</title>
+<style>
+/*
+CSS section code
+*/
+*{
+    padding:0;
+    margin:0;
+   
+    box-sizing:border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.areahead{
+    font-size:16px;
+    display:flex;
+    justify-content:center;
+    gap:10px;  
+}
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+.intro
+{ display:flex;
+  flex-direction:row;
+  justify-content: start;
+
+}
+.myimage
+{   vertical-align: sub;
+    border-radius:100px;
+    background-color:#45B8AC;
+}
+header {
+ 
+    color: #fff;
+    background-color:#45B8AC;
+    text-align: center;
+    padding: 20px;
+    width:100%;
+    position:fixed;
+
+   
+}
+.main
+{
+    background-color:#45B8AC;
+    margin:0;
+    padding-bottom:300px;
+}
+.head{
+    font-size:1rem;
+}
+header h1 {
+    font-size: 36px;
+    
+}
+
+header p {
+    font-size: 18px;
+
+}
+
+section {
+    
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width:100%;
+}
+
+footer {
+   /* Light gray background */
+  background-color: #333;
+    color:blanchedalmond;
+    margin-bottom:0;
+       text-align: center;
+    padding:30px;
+    width:100%;
+    margin-right:0;
+  
+}
+
+.interest {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin:0;
+  background-color: #a0d2eb;
+  
+}
+.about{
+    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+
+.mymenu nav a
+{
+    
+  margin:0;
+  padding: 0;
+  color:#f0f0f0;
+  text-decoration:none;
+  transition: text-decoration 0.3s ease;
+
+}
+.mymenu nav a:hover
+{
+    opacity:0.8;
+   
+    text-decoration: underline;
+}
+.nobullets
+{
+    list-style-type:none;
+}
+.areahead
+{
+  font-size:2rem;
+}
+.social
+{
+    list-style-type:none;
+}
+.nobullets
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    gap:10px;
+}
+.links
+{
+    display:flex;
+    justify-content:end;
+    flex-direction:row;
+    gap:15px;
+
+}
+.mail
+{   text-decoration:none;
+    font-size:25px;
+    margin-bottom:30px;
+}
+.about
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+}
+.about :nth-child(4)
+{
+    gap:20px;
+}
+.contact
+{
+padding:15px;
+margin-top:15px;
+border-radius:50px;
+background-color:white;
+}
+.contact:hover
+{  cursor: pointer;
+    opacity:0.8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+.areaofinterest
+{
+background-color:white;
+}
+.Education
+{  background-color:  #a0d2eb;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    gap:10px;
+    width:100%;
+}
+.interested
+{
+    margin-left:20px;;
+}
+</style>
+</head>
+<body>
+    <header>
+    <div class="intro">
+    <span class="head" style="vertical-align: text-bottom;">Raamkishore ML enthusiast</span>
+    </div>
+        <div class="mymenu">
+            <nav id="menuofpage">
+                <ul class="nobullets">
+                    <ul class="nobullets">
+                        <li class="home"><a href="index.html">|01: Home|</a></li>
+                        <li class="res"><a href="#resume" >|02: Resume|</a></li>
+                     
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="main" class="main">
+      <div>
+    <p></p>
+    <div class="areahead">
+ 
+    </div>
+    <div class="about">
+        <h2 class="heading" style="font-size:36px ">WELCOME</h2>
+        <img class="myimage"  src="myphoto.png" width="100" height="100"  >
+    
+    <p> I'm Raamkishore , passionate about AI, Deep Learning, and Web Development</p>
+    <p>Exploring the limitless potential of technology excites me</p>
+    <p>Join me on this journey where innovation meets creativity in the digital realm.</p>
+    <a href="#footer">
+    <button class="contact">Contact me</button>
+</a>
+</div>
+    </section>
+<section id="resume" class="interest">
+    <h2>Currently,I am interested in</h2>
+    <ul class="interested">
+    <li>Learning and building  multi-modal learning models</li>
+    <li>Building a AR headset that recognize speech and generate subtitle for hearing impaired individuals</li>
+    <li>Developing secure and scalable LLM for everyone</li>
+    </ul>
+</section>
+<section  class="Education">
+    <h2>Education</h2>
+    <img src="school.png" width="150" height="150">
+    <p>Secondary school:Aditya vidyashram residental school at pondicherry</p>
+    <img src="college.png" width="150" height="150">
+    <p>Pursing Bachelor Degree:B.Tech computer science and engineering at National instiute of technology Puducherry</p>
+
+        <h2>Skills</h2>
+      
+        <p>2 years of programming experience  in Python ,C,C++ programming language<br>Proficient in Html css and Javascript for frontend development
+        <br>My backend development skills  includes  Mysql and MongoDB
+        <br>My soft skills includes presentation,critical thinking ,problem solving </p>
+     
+        <h3>Projects</h3>
+        <ol>
+        <li>Created a W3Schools clone  It offers seamless navigation, a code editor, and compiler for interactive learning.<br> Python
+            quizzes aid students identifying weak areas, enhancing their understanding.</li>
+            <li>Developed a cutting-edge Text to AI Image Generation app with a 95% accuracy rate.<br> Ensured
+                compatibility across all devices, including mobile, tablets, and PCs. <br>Key features include adjustable
+                height and width for custom image generation, with a focus on security and scalability for a seamless
+                and reliable user experience</li>
+        <li>Built a robust  NLP based spell checker for Tamil language using Levenshtein distance with edit distance constraint using<br>
+        tensorflow and keras<br>Worked on Hospital token management system using python tkinter,sqlite3  module to build a secure and scalable app for <br>users </li>
+    </ol>
+        <h3>My hobbies :</h3>
+        <ul>
+        <li>Reading inspirational books</li>
+          <li>Playing badminton</li>
+          <li>Watching movies</li>
+          <li>contributing to open source projects</li>
+
+        </ul>
+</section>
+    <footer id="footer">
+        <p>&copy; 2023 T.Raamkishore &nbsp;All rights reserved</p>
+        <p>Inspired to create a better and reliable software solutions for everyone 😊</p>
+        
+        <ul class="social">
+        <div class="links">
+            <p>Contact me :</p>
+       
+           <li>
+            <a href="https://www.linkedin.com/in/raam-kishore-960307189/">
+               <img src="LI-In-Bug.png" height="30" width="30"> 
+            </a>
+
+
+            </a>
+           </li> 
+           <li>
+            <a href="https://github.com/Raam-kishore">
+                <img src="github.png" height="30" width="30">
+           </li>
+           <li>
+            <a href="mailto:raamkishore.megalai@gmail.com" class="mail">
+              ✉️
+            </a>
+           </li>
+       
+        </ul>
+    </div>
+
+    </footer>
+</body>
+</html>
